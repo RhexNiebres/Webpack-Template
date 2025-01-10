@@ -1,0 +1,35 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build": "webpack",
+  "dev": "webpack serve",
+  "deploy": "git subtree push --prefix dist origin gh-pages"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RhexNiebres/Webpack-Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RhexNiebres/Webpack-Template/issues"
+  },
+  "homepage": "https://github.com/RhexNiebres/Webpack-Template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
